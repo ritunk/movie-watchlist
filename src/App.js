@@ -13,7 +13,7 @@ function App() {
       <div className="app">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Watchlist />} />
+            <Route path="/movie-watchlist" element={<Watchlist />} />
 
             <Route path="/watched" element={<Watched />} />
 
