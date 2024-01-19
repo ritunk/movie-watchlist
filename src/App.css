@@ -37,6 +37,12 @@ body {
   }
 }
 
+/* @media (min-width: 400px) {
+  .container {
+    width: 450px;
+  }
+} */
+
 *,
 *:before,
 *:after {
@@ -88,6 +94,7 @@ header a {
   color: var(--white);
   font-size: 1.25rem;
   text-decoration: none;
+  margin-left: 1rem;
   transition: all 0.3s ease;
 }
 
@@ -110,7 +117,7 @@ header .nav-links {
 
 header .nav-links li {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 2px;
 }
 
 header .nav-links li:last-child {
